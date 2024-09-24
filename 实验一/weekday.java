@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.Scanner;;
-public class WeekA {
+public class weekday {
 	public static void main(String[] args) {
 		int year = 0;
 		int month = 0;
