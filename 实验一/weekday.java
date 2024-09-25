@@ -44,11 +44,6 @@ public class weekday {
 			}
 		}
 		for (int i = 1; i < month; i++) {
-			if (i == 2) {
-				if (((year % 4 == 0) && (year % 100 != 0)) || year % 400 == 0) {
-					MonthDays[1] = 29;
-				}
-			}
 			totalDays += MonthDays[i - 1];
 		}
 		totalDays += day;
